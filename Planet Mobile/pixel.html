@@ -1,0 +1,100 @@
+<!--pixel-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Pixel</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<body>
+    <div class="menu">
+        <table>
+            <tr>
+                <td><a href="hello.html"><img class="image" src="logo2.png" height="50px" width="50px"></a></td>
+                <td><a href="hello.html">Home</a></td>
+                <td><a href="services.html">Services</a></td>
+                <td><a href="">Contact </a></td>
+
+                <style>
+                    input[type=text] {
+                        float: right;
+                        width: 300px;
+                        box-sizing: border-box;
+                        border: 2px solid #ccc;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        background-color: white;
+                        background-image: url('searchicon.png');
+                        background-position: 10px 10px;
+                        background-repeat: no-repeat;
+                        padding: 12px 20px 16px 40px;
+                        -webkit-transition: width 0.4s ease-in-out;
+                        transition: width 0.4s ease-in-out;
+                    }
+
+                    input[type=text]:focus {
+                        width: 40%;
+                    }
+                </style>
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+            </tr>
+        </table>
+    </div>
+
+    <table width="100%" border="0" border-color="white" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="280" height="40" align="left">
+                <font color="black" size="5"><span id="date"></span><span id="greets"></span></font>
+            </td>
+            <td width="605" height="40" align="center"><span class="style7"><a href="hello.html"><font color="green" size="5">Planet Mobile</font></a></span></td>
+            <td width="20" height="40" align="right"><span class="login"><a href="services.html"><font color="black" size="5">Login</font></a></span></td>
+            <td width="20" height="40" align="right" border-color="black" border-radius="4" border-sizing="border-box"><span class="login"><a href="services.html"><font color="black" size="5">Signup</font></a></span></td>
+        </tr>
+    </table>
+    </div>
+    <div align="center">
+        <img src="phone/pixel2.jpeg">
+    </div>
+    <div class="news">
+        <p>One of the highest-rated smartphone cameras. Ever. Pixel takes brilliant photos in bright light, low light, and any light. That’s why tech experts gave it a DxOMark Mobile score of 89. ¹
+            <br>Watch video 12.3 MP<br> for sharp, crisp images 1.55 μm large pixels for great shots in any light f/2.0 aperture for bright, even photos
+        </p>
+        <h1 align="center">Software And Performance</h1>
+        <img src="phone/pix.jpg" height="700" width="100%"></img>
+        <p>An experience made by Google. Seamless glass-aluminum body With smooth surfaces and easy-to-grip curved edges.</p>
+        <h2 align="center">
+            Unlock fast with Pixel Imprint</h2>
+        <p>
+            Unlock your phone quickly, and swipe down on the fingerprint sensor for quick access to all your notifications.
+        </p>
+        <h2 align="center">
+            Vivid, cinematic display</h2>
+        <p>
+            A brilliant AMOLED screen, with true blacks and 16.77 million colors.</p>
+        <p>
+            Battery lasts all day, charges fast Get up to 7 hours of battery life in just 15 minutes. ³
+        </p>
+        <h1 align="center">Camera Design For Optical Zoom</h1>
+        <img src="phone/pixelcamera.jpg" height="600px" width="100%"></img>
+    </div>
+    <hr class="fix">
+
+    <div class="footer">
+        <a href="https://www.facebook.com/" target="_blank"><img src="logo/fblogo.png" width="50px" height="50px"></img></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="logo/tw.png" width="50px" height="50px"></img></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="logo/inlogo.ico" width="50px" height="50px"></img></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="logo/yulogo.png" width="50px" height="50px"></img></a>
+        <footer align="center">
+            <p id="footer1"></p>
+            <p id="footer2"></p>
+            <script>
+                document.getElementById("footer1").innerHTML = "Copyright @ 2018";
+                document.getElementById("footer2").innerHTML = "Planet Mobile";
+            </script>
+        </footer>
+    </div>
+</body>
+<script src="scripts/date.js"></script>
+</html>

@@ -1,0 +1,51 @@
+//json for services
+{  
+   "iPhone Repair":{  
+      "SRC":"phone/fix.jpg",
+      "ALT":"iPhone Repair",
+      "LINK":"https://www.ubreakifix.com/iphone-repair",
+      "HTML":"iPhone Repair"
+   },
+   "iFixit":{  
+      "SRC":"phone/fix2.jpg",
+      "ALT":"iFixit",
+      "LINK":"https://www.ifixit.com/Device/iPhone",
+      "HTML":"iFixit"
+   },
+   "Apple":{  
+      "SRC":"phone/fix3.png",
+      "ALT":"Apple",
+      "LINK":"https://support.apple.com/",
+      "HTML":"Apple Service"
+   },
+   "Samsung":{  
+      "SRC":"phone/fix4.jpg",
+      "ALT":"Samsung_care",
+      "LINK":"http://www.samsung.com/ca/support/",
+      "HTML":"Samsung Care"
+   },
+   "DBrands":{  
+      "SRC":"phone/dbrand.jpg",
+      "ALT":"DBrands",
+      "LINK":"https://dbrand.com",
+      "HTML":"DBrands Skins and cases"
+   },
+   "Oliz":{  
+      "SRC":"phone/oliz.jpg",
+      "ALT":"Oliz",
+      "LINK":"https://www.olizstore.com",
+      "HTML":"Oliz"
+   },
+   "Android P":{  
+      "SRC":"phone/android-p.jpg",
+      "ALT":"Android P",
+      "LINK":"https://developer.android.com/preview/index.html",
+      "HTML":"Android P"
+   },
+   "GoPro":{  
+      "SRC":"phone/gopro.png",
+      "ALT":"phone/gopro.png",
+      "LINK":"https://www.gopro.com",
+      "HTML":"GoPro"
+   }
+}

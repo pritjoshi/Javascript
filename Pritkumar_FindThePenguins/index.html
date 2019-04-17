@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Find the Penguins</title>
+        <meta charset="utf-8">
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+    <body>
+        <div id="gamehold">
+            <div id="title"></div>
+            
+            <div id="gameoverModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="gameover">Game Over!</p>
+            </div>
+        </div>
+            
+            <div id="wrapper">
+                <div id="penguin1" class="gamepieces"></div>
+                <div id="penguin2" class="gamepieces"></div>
+                <div id="penguin3" class="gamepieces"></div>
+                <div id="penguin4" class="gamepieces"></div>
+                <div id="penguin5" class="gamepieces"></div>
+                <div id="penguin6" class="gamepieces"></div>
+                <div id="penguin7" class="gamepieces"></div>
+                <div id="penguin8" class="gamepieces"></div>
+                <div id="yeti" class="gamepieces"></div>
+        <section>
+        <aside id="gameInfo">
+            <div>
+                <h2>Score</h2>
+                <div class="scoreContain">
+                   <div class="scorePadd"></div>
+                   <div class="scoreboard"><input id="countscore" type="text" readonly placeholder="0"></div>
+                   <div class="scorePadd"></div>
+                </div>
+            </div>
+        </aside>
+        <aside id="highScore">
+            <div>
+                <h2>High-Score</h2>
+                <div class="scoreContain">
+                   <div class="scorePadd"></div>
+                   <div class="scoreboard"><input id="counthighscore" type="text" readonly placeholder="0"></div>
+                   <div class="scorePadd"></div>
+                </div>
+            </div>
+        </aside>
+        </section>
+            </div>
+        </div>
+    </body>
+</html>

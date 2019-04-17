@@ -1,0 +1,65 @@
+<!--login-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<body>
+    <div class="menu">
+        <table>
+            <tr>
+                <td><a href="hello.html"><img class="image" src="logo2.png" height="50px" width="50px"></a></td>
+                <td><a href="hello.html">Home</a></td>
+                <td><a href="services.html">Services</a></td>
+                <td><a href="">Contact </a></td>
+
+                <style>
+                </style>
+
+    </div>
+
+    <table width="100%" border="0" border-color="white" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="280" height="40" align="center">
+                <a href="login.html">
+                    <font color="green" size="5"><span id="style">Login</a></span></font>
+            </td>
+        </tr>
+    </table>
+    <form id="form1" action="formsubmit.php" method="post">
+        <fieldset>
+            <legend>Fill up details</legend>
+
+
+
+            <form id="form_id" method="post" name="myform"><br><br>
+                <label>User Name :<input type="text" name="username" id="username"  placeholder="Username"/></label><br>
+                <label>&nbsp;&nbsp;Password :<input type="password" name="password" id="password" placeholder="Password"/></label><br>
+                <input type="button" value="Login" id="submit" onclick="validate()" /><br>
+                <font color="red" size="4em"><label id="error"></label></font>
+            </form>
+        </fieldset>
+    </form>
+    <p id="successMessage" class="success">
+    </p>
+    <div class=""></div>
+    <hr class="fix">
+
+    <div class="footer">
+        <a href="https://www.facebook.com/" target="_blank"><img src="logo/fblogo.png" width="50px" height="50px"></img></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="logo/tw.png" width="50px" height="50px"></img></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="logo/inlogo.ico" width="50px" height="50px"></img></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="logo/yulogo.png" width="50px" height="50px"></img></a>
+        <footer align="center">
+            <p id="footer1"></p>
+            <p id="footer2"></p>
+            <script>
+                document.getElementById("footer1").innerHTML = "Copyright @ 2018";
+                document.getElementById("footer2").innerHTML = "Planet Mobile";
+            </script>
+    </div>
+</body>
+<script src="scripts/login.js"></script>
+</html>

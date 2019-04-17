@@ -1,0 +1,113 @@
+<!--Index page-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planet Mobiles</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<body>
+    <div class="menu">
+        <nav>
+            <table>
+                <tr>
+                    <td><a href=""><img class="image" src="logo2.png" height="50px" width="50px"></a></td>
+                    <td><a href="">Home</a></td>
+                    <td><a href="services.html">Services</a></td>
+
+                    <td><a href="contact.html">Contact </a></td>
+
+                    <style>
+                        input[type=text] {
+                            float: right;
+                            width: 300px;
+                            box-sizing: border-box;
+                            border: 2px solid #ccc;
+                            border-radius: 4px;
+                            font-size: 16px;
+                            background-color: white;
+                            background-position: 10px 10px;
+                            background-repeat: no-repeat;
+                            padding: 12px 20px 16px 40px;
+                            -webkit-transition: width 0.4s ease-in-out;
+                            transition: width 0.4s ease-in-out;
+                        }
+
+                        input[type=text]:focus {
+                            width: 40%;
+                        }
+                    </style>
+                    <form>
+                        <input type="text" id="search" name="search" placeholder="Search..">
+                    </form>
+                </tr>
+            </table>
+    </div>
+    </nav>
+    <table width="100%" border="0" border-color="white" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="280" height="40" align="left">
+                <font color="black" size="5"><span id="date"></span><span id="greets"></span></font>
+            </td>
+            <td width="605" height="40" align="center"><span class="style7"><a href="hello.html"><font color="green" size="5">Planet Mobile</font></a></span></td>
+            <td width="20" height="40" align="right"><span class="login"><a href="login.html"><font color="black" size="5" >Login</font></a></span></td>
+            <td width="20" height="40" align="right" border-color="black" border-radius="4" border-sizing="border-box"><span class="login"><a href="signup.html"><font color="black" size="5">Signup</font></a></span></td>
+        </tr>
+    </table>
+    <div class="content">
+        <img id="slide" src="phone/i7cover.jpg" height="720px" width="100%" align="center" />
+    </div>
+    <div class="text">
+        <h3 id="text">Iphone 7+</h3>
+    </div>
+    <div align="center">
+        <a href="ios11.html">
+<img src="phone/capture1.png">
+</a>
+    </div>
+
+    <a href="homepod.html">
+        <div class="a">
+            <h1 align="center">Apple Homepod</h1>
+            <img src="phone/homepod.png" width="400px" height="200px" align="center">
+            <p>
+                A breakthrough speaker all around. We completely reimagined how a speaker should make music in the home. HomePod combines Apple-engineered audio technology and advanced software to deliver the highest-fidelity sound throughout the room, no matter where it’s placed. This elegantly designed, compact speaker totally rocks the house.</p>
+        </div>
+    </a>
+    <a href="iphone8.html" id="all">
+        <div class="a">
+            <h1 align="center">iPhone8</h1>
+            <img src="phone/iphone8.jpg" height="200px" width="400px">
+            <p color="black">
+                iPhone 8 introduces an all‑new glass design. The world’s most popular camera, now even better. The most powerful and smartest chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented reality experiences never before possible. iPhone 8. A new generation of iPhone.</p>
+        </div>
+    </a>
+    <a href="pixel.html">
+        <div class="a">
+            <h1 align="center">Google Pixel</h1>
+            <img src="phone/pixel2.jpeg" width="400px" height="200px">
+            <p>
+                One of the highest-rated smartphone cameras. Ever. Pixel takes brilliant photos in bright light, low light, and any light. That’s why tech experts gave it a DxOMark Mobile score of 89.
+            </p>
+        </div>
+    </a>
+    <hr class="fix">
+
+    <div class="footer">
+        <a href="https://www.facebook.com/" target="_blank"><img src="logo/fblogo.png" width="50px" height="50px"></img></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="logo/tw.png" width="50px" height="50px"></img></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="logo/inlogo.ico" width="50px" height="50px"></img></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="logo/yulogo.png" width="50px" height="50px"></img></a>
+        <footer align="center">
+            <p id="footer1"></p>
+            <p id="footer2"></p>
+            <script>
+                document.getElementById("footer1").innerHTML = "Copyright @ 2018";
+                document.getElementById("footer2").innerHTML = "Planet Mobile";
+            </script>
+        </footer>
+    </div>
+</body>
+<script src="scripts/validation.js"></script>
+<script src="scripts/date.js"></script>
+</html>

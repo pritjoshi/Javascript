@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.calculator {
+    margin-top: 50px;
+    width: 500px;
+    height: 530px;
+    background-color: #c0c0c0;
+    box-shadow: 0px 0px 0px 10px #666;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#display {
+    cursor: text;
+    width: 400px;
+    height: 80px;
+    text-align: right;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 40px;
+    left: 2px;
+    top: 2px;
+    color: #7fff00;
+}
+
+.btnTop {
+    
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #6f6f6f;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 35px;
+}
+
+.btnNum {
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 35px;
+}
+
+.btnMath {
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #A28983;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 35px;
+}
+
+.btnOpps {
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    background-color: #CF926C;
+    font-size: 14px;
+    margin: auto;
+    width: 70px;
+    height: 35px;
+}
+
+header {
+    text-align: center;
+    font-size: .60cm;
+    color: #ccc;
+    font-style: italic;
+   margin-bottom: 100px;
+}
+
+footer {
+    margin-top: 125px;
+    text-align: center;
+    font-size: .60cm;
+    font-style: italic;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    color: #ccc;
+}

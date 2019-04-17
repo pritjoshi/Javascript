@@ -1,0 +1,95 @@
+<!--homepod-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePod</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<body>
+    <div class="menu">
+        <table>
+            <tr>
+                <td><a href="hello.html"><img class="image" src="logo2.png" height="50px" width="50px"></a></td>
+                <td><a href="hello.html">Home</a></td>
+                <td><a href="services.html">Services</a></td>
+                <td><a href="">Contact </a></td>
+
+                <style>
+                    input[type=text] {
+                        float: right;
+                        width: 300px;
+                        box-sizing: border-box;
+                        border: 2px solid #ccc;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        background-color: white;
+                        background-image: url('searchicon.png');
+                        background-position: 10px 10px;
+                        background-repeat: no-repeat;
+                        padding: 12px 20px 16px 40px;
+                        -webkit-transition: width 0.4s ease-in-out;
+                        transition: width 0.4s ease-in-out;
+                    }
+
+                    input[type=text]:focus {
+                        width: 40%;
+                    }
+                </style>
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+            </tr>
+        </table>
+    </div>
+
+    <table width="100%" border="0" border-color="white" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="280" height="40" align="left">
+                <font color="black" size="5"><span id="date"></span><span id="greets"></span></font>
+            </td>
+            <td width="605" height="40" align="center"><span class="style7"><a href="hello.html"><font color="green" size="5">Planet Mobile</font></a></span></td>
+            <td width="20" height="40" align="right"><span class="login"><a href="services.html"><font color="black" size="5">Login</font></a></span></td>
+            <td width="20" height="40" align="right" border-color="black" border-radius="4" border-sizing="border-box"><span class="login"><a href="services.html"><font color="black" size="5">Signup</font></a></span></td>
+        </tr>
+    </table>
+    </div>
+    <div align="center">
+        <img src="phone/homepod.png">
+    </div>
+    <div class="news">
+        <h1 align="center">A breakthrough speaker all around.</h1>
+        <p>We completely reimagined how a speaker should make music in the home. HomePod combines Apple-engineered audio technology and advanced software to deliver the highest-fidelity sound throughout the room, no matter where it’s placed. This elegantly designed, compact speaker totally rocks the house. Apple‑designed A8 chip Seamless mesh fabric High‑excursion woofer Six‑microphone array Seven‑tweeter array Engineered to bring down the house.</p>
+        <p>
+            We built the high-excursion woofer with a custom amplifier to play a wide range of deep, rich bass. A powerful motor drives the diaphragm a full 20 mm — remarkable for a speaker this size. Meanwhile, HomePod uses an advanced algorithm that continuously analyzes the music and dynamically tunes the low frequencies for smooth, distortion‑free sound. Seven tweeters. Amazing sound from every angle. HomePod has a unique array of seven beamforming tweeters that precisely focus the sound, from very narrow beams all the way to true, consistent 360º audio. By aiming those beams throughout the room, the tweeters create an immersive sense of space — no matter where HomePod is or where you’re sitting. A8 chip. It’s always thinking about the sound.</p>
+        <p>
+            A powerful Apple-designed A8 chip is the brains behind the most complex audio innovations in HomePod. Like real-time modeling of the woofer mechanics. Buffering that’s even faster than real time. Upmixing of both direct and ambient audio. Beamforming so the microphone can hear you over the music. And advanced echo cancellation. So you get amazing sound without even thinking about it. Beautiful design with a purpose.</p>
+        <h1 align="center">Design</h1><img src="phone/homepod1.jpg" height="800" width="100%"></img>
+        <p>
+            HomePod is wrapped in a seamless mesh fabric designed for both aesthetic and acoustic performance. Available in white and space gray, it’s gorgeous from every angle — yet virtually transparent to the music. And at just under seven inches tall, this speaker can fit anywhere in your home. It’s easier than easy. It’s automatic.</p>
+        <p>
+            Senses the room and tunes the music. All by itself. Place HomePod anywhere in the room. It automatically analyzes the acoustics, adjusts the sound based on the speaker’s location, and steers the music in the optimal direction. Whether HomePod is against the wall, on a shelf, or in the middle of the room, everyone gets an immersive listening experience.
+        </p>
+    </div>
+    <div class="footer">
+        <footer align="center"> Copyright@2018</footer>
+    </div>
+    <hr class="fix">
+
+    <div class="footer">
+        <a href="https://www.facebook.com/" target="_blank"><img src="logo/fblogo.png" width="50px" height="50px"></img></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="logo/tw.png" width="50px" height="50px"></img></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="logo/inlogo.ico" width="50px" height="50px"></img></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="logo/yulogo.png" width="50px" height="50px"></img></a>
+        <footer align="center">
+            <p id="footer1"></p>
+            <p id="footer2"></p>
+            <script>
+                document.getElementById("footer1").innerHTML = "Copyright @ 2018";
+                document.getElementById("footer2").innerHTML = "Planet Mobile";
+            </script>
+        </footer>
+    </div>
+</body>
+<script src="scripts/date.js"></script>
+</html>

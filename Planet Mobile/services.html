@@ -1,0 +1,102 @@
+<!--Services-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services</title>
+</head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<body>
+    <div class="menu">
+        <table>
+            <tr>
+                <td><a href="hello.html"><img class="image" src="logo2.png" height="50px" width="50px"></a></td>
+                <td><a href="hello.html">Home</a></td>
+                <td><a href="services.html">Services</a></td>
+                <td><a href="contact.html">Contact </a></td>
+
+                <style>
+                    input[type=text] {
+                        float: right;
+                        width: 300px;
+                        box-sizing: border-box;
+                        border: 2px solid #ccc;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        background-color: white;
+                        background-image: url('searchicon.png');
+                        background-position: 10px 10px;
+                        background-repeat: no-repeat;
+                        padding: 12px 20px 16px 40px;
+                        -webkit-transition: width 0.4s ease-in-out;
+                        transition: width 0.4s ease-in-out;
+                    }
+
+                    input[type=text]:focus {
+                        width: 40%;
+                    }
+
+                    div.gallery {
+                        margin: 15px;
+                        border: 1px solid #ccc;
+                        float: left;
+                        width: 280px;
+                        padding: 10px;
+
+                    }
+
+                    div.gallery:hover {
+                        border: 1px solid #777;
+                    }
+
+                    div.gallery img {
+                        width: 100%;
+                        height: 200px;
+                        ;
+                    }
+
+                    div.desc {
+                        padding: 15px;
+                        text-align: center;
+                    }
+                </style>
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+            </tr>
+        </table>
+    </div>
+
+    <table width="100%" border="0" border-color="white" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="280" height="40" align="center">
+                <a href="services.html">
+                    <font color="green" size="5"><span id="style">Services</a></span></font>
+            </td>
+        </tr>
+    </table>
+    <div id="boxes">
+
+    </div>
+<!--footer-->
+        <div class="footer">
+            <a href="https://www.facebook.com/" target="_blank"><img src="logo/fblogo.png" width="50px" height="50px"></img></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="logo/tw.png" width="50px" height="50px"></img></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="logo/inlogo.ico" width="50px" height="50px"></img></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="logo/yulogo.png" width="50px" height="50px"></img></a>
+            <footer align="center">
+                <p id="footer1"></p>
+                <p id="footer2"></p>
+                <script>
+                    document.getElementById("footer1").innerHTML = "Copyright @ 2018";
+                    document.getElementById("footer2").innerHTML = "Planet Mobile";
+                </script>
+            </footer>
+        </div>
+</body>
+<script src="scripts/date.js"></script>
+<script src="scripts/services.js"></script>
+
+</html>
